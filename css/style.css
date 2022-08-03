@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.letter-space-sm {
+  letter-spacing: 2px;
+}
+
+.trending-card {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.trending-title {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .trending-card {
+    left: 50%;
+    right: 0%;
+  }
+
+  .trending-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .trending-card {
+    left: 50%;
+    right: 0%;
+  }
+
+  .trending-title {
+    font-size: 2rem;
+  }
+}
+
+.line {
+  height: 2px;
+  background-color: #ffbe21;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.heading-primary {
+  font-size: 48px;
+}
